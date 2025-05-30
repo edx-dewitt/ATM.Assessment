@@ -71,15 +71,15 @@ namespace ATM.Web.Controllers
         }
 
         // TODO Implement this
-        public async Task<IActionResult> Transfer(
-            [FromBody]
-            TransferRequest request
-        )
-        {
-            
-            throw new NotImplementedException();
-            
-        }
+        // public async Task<IActionResult> Transfer(
+        //     [FromBody]
+        //     TransferRequest request
+        // )
+        // {
+        //     
+        //     throw new NotImplementedException();
+        //     
+        // }
 
         [HttpGet("{accountId}/transactions")]
         public async Task<IActionResult> GetTransactions(int accountId)
