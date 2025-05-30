@@ -1,0 +1,60 @@
+# ==========================
+# C# / Visual Studio Items
+# ==========================
+bin/
+obj/
+**/bin/
+**/obj/
+
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+*.log
+
+.vs/
+*.cache
+*.pdb
+
+.vscode/
+
+.idea/
+*.sln.iml
+
+*.dotCover
+
+# ==========================
+# ASP.NET Core
+# ==========================
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# ==========================
+# Node.js / Next.js / React Items
+# ==========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+.next/
+out/
+.vercel/
+
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ==========================
+# OS-specific and IDE Files
+# ==========================
+.DS_Store
+
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
