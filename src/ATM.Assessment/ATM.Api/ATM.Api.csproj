@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="FluentMigrator.Runner.Core" Version="7.1.0" />
+      <PackageReference Include="FluentMigrator.Runner.SQLite" Version="7.1.0" />
+      <PackageReference Include="FluentValidation" Version="12.0.0-preview1" />
+      <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.3.0" />
+      <PackageReference Include="Microsoft.Extensions.Hosting" Version="10.0.0-preview.2.25163.2" />
+        <PackageReference Include="MassTransit.Abstractions" Version="8.4.1-develop.2255" />
+        <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.13"/>
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2"/>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\ATM.Services\ATM.Services.csproj" />
+      <ProjectReference Include="..\ATM.Validation\ATM.Validation.csproj" />
+      <ProjectReference Include="..\ATM.ViewModels\ATM.ViewModels.csproj" />
+    </ItemGroup>
+
+</Project>
